@@ -45,7 +45,7 @@ const App: React.FC = () => {
           mode="multiple"
           size={size}
           placeholder="Please select"
-          defaultValue={['a10', 'c12']}
+          defaultValue={['移交', '跳过','回退', '调整处理人', '终止', '撤销', '流程挂起', '编辑流程', '流程复活'  ]}
           onChange={handleChange}
           style={{ width: '100%' }}
           options={options}
